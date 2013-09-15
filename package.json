@@ -13,6 +13,7 @@
     "bin": "./cloud-cli.js",
     "dependencies": {
         "evo-elements": "0.0.3",
+        "evo-neuron": "0.0.3",
         "evo-connector": "0.0.2",
         "js-class": "0.0.2",
         "nomnom": "1.6.1",
