@@ -1,9 +1,11 @@
 {
     "services": {
-        "connector": {}
+        "connector": {},
+        "ambience": {}
     },
 
     "cli": [
-        "connector"
+        "connector",
+        "ambience"
     ]
 }
