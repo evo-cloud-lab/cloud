@@ -16,6 +16,7 @@
         "evo-neuron": "0.0.3",
         "evo-connector": "0.0.2",
         "evo-ambience": "0.0.1",
+        "evo-cubes": "0.0.1",
         "js-class": "0.0.2"
     },
     "devDependencies": {
