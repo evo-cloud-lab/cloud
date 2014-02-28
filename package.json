@@ -10,14 +10,24 @@
         "type": "git",
         "url": "https://github.com/evo-cloud/cloud"
     },
-    "bin": "./cloud-cli.js",
+    "bin": {
+        "evo-cloud": "./cloud-cli.js",
+        "evo-cloud-server": "./server.js"
+    },
     "dependencies": {
-        "evo-elements": "0.0.3",
-        "evo-neuron": "0.0.3",
-        "evo-connector": "0.0.2",
-        "evo-ambience": "0.0.1",
-        "evo-cubes": "0.0.1",
-        "js-class": "0.0.2"
+        "js-class": "0.0.2",
+        "async": "0.2.10",
+        "underscore": "1.6.0",
+        "forever-monitor": "1.2.3",
+        "mkdirp": "0.3.5",
+        "evo-elements":  "git://github.com/evo-cloud/elements",
+        "evo-neuron":    "git://github.com/evo-cloud/neuron",
+        "evo-idioms":    "git://github.com/evo-cloud/idioms",
+        "evo-connector": "git://github.com/evo-cloud/connector",
+        "evo-cubes":     "git://github.com/evo-cloud/cubes",
+        "evo-ambience":  "git://github.com/evo-cloud/ambience",
+        "evo-governor":  "git://github.com/evo-cloud/governor",
+        "evo-launcher":  "git://github.com/evo-cloud/launcher"
     },
     "devDependencies": {
         "mocha": "1.12.0",
